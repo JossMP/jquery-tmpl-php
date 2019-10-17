@@ -1,0 +1,21 @@
+{
+    "name": "jossmp/jquery-tmpl-php",
+    "description": "A PHP library for rendering jQuery templates server-side",
+    "type": "library",
+    "require": {
+        "php": ">=5.6"
+    },
+    "license": "MIT License",
+    "authors": [
+        {
+            "name": "Josue Mazco Puma",
+            "email": "jossmp@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "jossmp\\jQueryTmpl\\": "src/"
+        }
+    }
+}
